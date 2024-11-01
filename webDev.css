@@ -121,6 +121,30 @@ select:focus {
 }
 
 
+.main-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff00a5; 
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1rem;
+  border: none;  
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
 /* Media Query for Mobile Phone */
 
 @media (max-width: 768px) {
