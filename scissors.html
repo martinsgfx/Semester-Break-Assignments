@@ -10,25 +10,44 @@
   </head>
   <body>
     <header>
-      <nav class="nav-bar">
+      <nav class="nav-bar">       
         <img src="Scissors Logo.png" alt="" class="logo" />
-        <ul class="nav-links">
-          <li>
-            <a href="#"><span>My URLs</span></a>
-          </li>
-          <li>
-            <a href="#" class="features"
-              >Features <img src="drop-down.png" alt=""
-            /></a>
-          </li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Analytics</a></li>
-          <li><a href="#">FAQs</a></li>
-        </ul>
-        <div class="log-on">
-          <a href="#">Log In</a>
-          <a href="#" id="trial">Try for free</a>
+         
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <!-- Hamburger icon -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="right-nav">
+          <ul class="nav-links">
+            <li>
+              <a href="#"><span>My URLs</span></a>
+            </li>
+            <li>
+              <a href="#" class="features"
+                >Features <img src="drop-down.png" alt=""
+              /></a>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+          
+          <ul class="log-on">
+              <li>
+                <a href="#">Log In</a>
+              </li>
+              <li>
+                <a href="#" id="trial">Try for free</a>
+              </li>
+           </ul>                     
+                 
         </div>
+
+        
       </nav>
     </header>
 
@@ -111,7 +130,7 @@
 
       <div class="section-4-right">
         <div class="reasons-top">
-          <div>
+          <div class="reasons-top-x">
             <img src="url-short.png" alt="" />
             <h3>URL Shortening</h3>
             <p>
@@ -119,7 +138,7 @@
               Shorten your URL at scale, URL redirects.
             </p>
           </div>
-          <div>
+          <div class="reasons-top-x">
             <img src="custom url.png" alt="" />
             <h3>Custom URLs</h3>
             <p>
@@ -129,7 +148,7 @@
           </div>
         </div>
         <div class="reasons-bottom">
-          <div>
+          <div class="reasons-top-x">
             <img src="qr codes.png" alt="" />
             <h3>QR Codes</h3>
             <p>
@@ -137,7 +156,7 @@
               and customers to your doorstep with this scan and go solution.
             </p>
           </div>
-          <div>
+          <div class="reasons-top-x">
             <img src="data analysis.png" alt="" />
             <h3>Data Analytics</h3>
             <p>
@@ -154,7 +173,7 @@
     <section class="section-5">
       <div class="section-5-top">
         <h2 class="line-head-2">
-          <img src="List line.png" alt="" />A <span>price perfect</span> for
+          <div><img src="List line.png" alt="" />A <span>price perfect</span></div> for
           your needs.
         </h2>
         <p>

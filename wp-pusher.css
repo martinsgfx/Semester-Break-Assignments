@@ -177,11 +177,14 @@ input {
 
 .input-group {
   display: flex;
+  justify-self: center;
   background-color: #edeff2;
   border-radius: 5px;
+  width: 100%;
 }
 
 .input-field {
+  justify-self: center;
   background-color: transparent;
   border: none;
   outline: none;
@@ -401,6 +404,11 @@ button:hover {
     top: 60px;
     left: 0;
     padding: 20px;
+    padding-left: 0px;
+  }
+
+  .pay-btn {    
+    width: 82%;    
   }
 
   .nav-links a {
@@ -443,8 +451,8 @@ button:hover {
     display: block;
     margin-top: 5%;
     margin-bottom: 0;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: white;
     border-radius: 10px;
     box-shadow: -1px 0px 15px 4px rgba(0, 0, 0, 0.19);
@@ -469,20 +477,16 @@ button:hover {
     display: block;
   }
 
+  #card-number {
+    justify-self: center;
+  }
+
   .input-field {
     background-color: transparent;
     border: none;
     outline: none;
     color: #646e7a;
     text-align: center;
-  }
-
-  .pricing-card {
-    background-color: #1179bf;
-    color: white;
-    padding: 50px 50px 80px 50px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
   }
 
   .left-text {
@@ -494,7 +498,7 @@ button:hover {
   }
   
   li {
-    display: block;
+    display: 0;
     align-items: center;
     padding: 10px 0px;
   }
@@ -503,8 +507,8 @@ button:hover {
     background-color: #1179bf;
     color: white;
     padding: 50px 30px 80px 30px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 
 }
