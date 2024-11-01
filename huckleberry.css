@@ -1,0 +1,151 @@
+* {
+  background-color: ghostwhite;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  background-color: inherit;
+}
+
+.main-box {
+  padding: 0;
+}
+
+.white-box {
+  text-align: left;
+  background-color: white;
+  padding: 5% 20% 5% 20%;
+}
+.white-box p {
+  background-color: inherit;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+}
+
+.white-box p strong {
+  color: #009966;
+  font-weight: 500;
+  background-color: inherit;
+}
+.grey-box {
+  background-color: #666666;
+  padding: 5% 18% 5% 18%;
+  border-top-style: solid;
+  border-top-color: #999999;
+  border-top-width: 0.75rem;
+}
+.grey-box-child {
+  background-color: white;
+  padding: 0.5px 2%;
+  width: fit-content;
+  border-bottom-style: solid;
+  border-bottom-color: #999999;
+  border-bottom-width: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grey-box-child h1 {
+  background-color: #ffbf00;
+  border-bottom-style: solid;
+  border-bottom-color: #cc9900;
+  border-bottom-width: 0.5rem;
+  padding: 1rem 2.5rem;
+  width: fit-content;
+  margin-left: -2.5rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.grey-box-child p {
+  font-size: 1.5rem;
+  background-color: inherit;
+  padding-bottom: 3rem;
+  font-weight: 400;
+}
+
+/* Main Button */
+
+
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff00a5; 
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1rem;
+  border: none;  
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .white-box {
+    padding: 5% 3%;
+  }
+
+  .grey-box {
+    padding: 10% 0% 10% 0%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .white-box {
+    padding: 5% 3%;
+  }
+
+  .grey-box {
+    padding: 10% 0% 10% 0%;
+  }
+}
+
+@media (max-width: 480px) {
+  .white-box {
+    padding: 5% 3%;
+  }
+
+  h1 {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+
+  .white-box p {
+    background-color: inherit;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .grey-box {
+    padding: 10% 0% 10% 0%;
+  }
+
+  .grey-box-child h1 {
+    line-height: 1.1;
+    padding: 1rem 3.5rem;
+  }
+
+  .grey-box-child p {
+    font-size: 1.5rem;
+    background-color: inherit;
+    padding: 0 1rem 2rem 1rem;
+  }
+}

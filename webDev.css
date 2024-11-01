@@ -1,0 +1,161 @@
+* {
+  background-color: #f7fdfc;
+  font-family: "Sofia Sans", sans-serif;
+  margin: 0;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  padding: 5% 8%;
+}
+
+.left-container {
+  text-align: left;
+  padding: 10% 30% 20% 10%;
+}
+
+img {
+  width: 25%;
+  margin-left: -2%;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 2rem 0;
+  font-weight: 800;
+}
+
+.left-container p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #777;
+}
+
+.right-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  justify-content: left;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: inherit;
+  border-radius: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.45rem;
+  flex: 1;
+  background-color: inherit;
+}
+
+.form-row {
+  display: flex;
+  gap: 2rem;
+  background-color: inherit;
+}
+
+label {
+  font-size: 1rem;
+  color: #011c34;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: bolder;
+  background-color: inherit;
+}
+
+input,
+select {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 1px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #00c4cc;
+}
+
+.register-btn {
+  background-color: #00c4cc;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  background-color: #00b3b8;
+}
+
+.agreement {
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.agreement a {
+  color: #00c4cc;
+  text-decoration: none;
+}
+
+.agreement a:hover {
+  text-decoration: underline;
+}
+
+
+/* Media Query for Mobile Phone */
+
+@media (max-width: 768px) {
+    .main-container {
+        display: block;
+        padding: 2% 4%;
+        margin-bottom: 20%;
+    }
+
+    img {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .left-container {
+        padding: 10% 0% 10% 0%;
+    }
+
+    .left-container p {
+        font-size: 1rem;
+    }
+
+    .right-container {
+        width: 100%;
+    }
+
+    form {
+        padding: 5% 4%;
+    }
+
+    .form-row {
+        display: block;
+    }
+}
