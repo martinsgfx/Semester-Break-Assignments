@@ -320,6 +320,11 @@ main {
 
 .line-head-2 img {
   margin-left: -15px;
+  margin-right: 10px;
+}
+
+.line-head-2 span {
+  align-items: start;
 }
 
 /* Plans Table */
@@ -854,12 +859,12 @@ button:hover {
 
   .hero {
     font-size: 2rem;
-    line-height: 1.3;
+    line-height: 1.5;
     padding: 20px;
   }
 
   .hero span img {
-    margin-top: 0px;
+    margin-top: -8px;
   }
 
   .summary {
