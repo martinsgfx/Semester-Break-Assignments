@@ -318,9 +318,11 @@ main {
   margin-bottom: 20px;
 }
 
+
+
 .line-head-2 img {
   margin-left: -15px;
-  margin-right: 10px;
+  
 }
 
 .line-head-2 span {
@@ -1008,8 +1010,9 @@ button:hover {
 }
 
 .line-head-2 {
-  display: grid;
-  grid-template-rows: max-content max-content;
+  display: block;
+  align-items: center;
+  align-content: center;
   
   gap: 10px;
   margin-bottom: 20px;
@@ -1247,23 +1250,5 @@ button:hover {
    padding-left: 0px;
   
   }
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-  
-  
-  
 
 }
