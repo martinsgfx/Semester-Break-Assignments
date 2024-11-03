@@ -1628,6 +1628,8 @@ button:hover {
 .custom-pricing-btn {
   padding: 10px 25px;
   margin-bottom: 20px;
+  width: fit-content;
+  justify-self: center;
   
 }
 
@@ -1637,6 +1639,8 @@ button:hover {
 
 .select-pricing-btn {
   padding: 10px 25px;
+  width: fit-content;
+  justify-self: center;
   
 }
 
@@ -1730,6 +1734,7 @@ button:hover {
   gap: 70px;
   padding: 0px 25px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .foot-links {
