@@ -14,7 +14,7 @@ main {
   display: grid;
   justify-content: center;
   align-content: center;
-  padding: 10%;
+  padding: 7%;
   text-align: center;
   gap: 20px;
 }
@@ -23,6 +23,7 @@ h1 {
   font-size: 6rem;
   margin: 0px;
 }
+
 
 span {
   color: beige;
